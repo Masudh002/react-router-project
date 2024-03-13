@@ -16,6 +16,7 @@ import Price from './Pages/Host/Price';
 
 import "./server"
 import Info from './Pages/Host/Info';
+import NotFound from './Pages/NotFound';
 
 const App = () => {
   return (
@@ -39,8 +40,9 @@ const App = () => {
               <Route path='pricing' element={<Price/>}/>
               <Route path='photos' element={<Photos/>}/>
             </Route>
-          </Route>
-        </Route>        
+          </Route>          
+        </Route>   
+        <Route path="*" element={<NotFound/>}/>     
       </Routes>
      </BrowserRouter> 
     </div>
