@@ -103,7 +103,7 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 350px;
+    min-height: 70vh;
     color: white;
     padding: 45px 23px;
 }

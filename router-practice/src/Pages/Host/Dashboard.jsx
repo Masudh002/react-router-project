@@ -1,7 +1,7 @@
 import React from 'react'
 const Dashboard = () => {
   return (
-    <div>
+    <div style={{minHeight: '60vh'}}>
       <h1>Host Dashboard here</h1>
     </div>
   )
